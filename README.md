@@ -1,16 +1,31 @@
-# React + Vite
+# Glassmorphism Login/Signup Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive login and signup form built with **React**, **Vite**, and **Tailwind CSS** featuring a beautiful **glassmorphism** effect (frosted glass blur + transparency).
 
-Currently, two official plugins are available:
+### Login View
+![Login Screenshot](/public/screenshots/login-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Signup Slide-up
+![Signup Screenshot](/public/screenshots/signup-screenshot.png)
 
-## React Compiler
+## Features
+- Glassmorphism UI with backdrop-blur and transparency
+- Toggle password visibility (eye icon)
+- Switch between Login and Signup forms with smooth slide-up animation
+- Responsive design (mobile-friendly)
+- Social login buttons (Google, Apple, Facebook) – placeholder for future OAuth
+- Clean and minimal code structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- **React** (with Hooks: useState)
+- **Vite** (fast dev server & build tool)
+- **Tailwind CSS** v3/v4 (utility-first CSS)
+- **lucide-react** (icons: Eye, EyeOff)
+- No external UI libraries – pure Tailwind + custom styles
 
-## Expanding the ESLint configuration
+## Installation & Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohebipor/Glassmorphism-Login-page.git
+   cd Glassmorphism-Login-page
